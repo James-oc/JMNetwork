@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2B720C1DAF1EA9003E07CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B720B1DAF1EA9003E07CF /* main.m */; };
+		1A2B720F1DAF1EA9003E07CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B720E1DAF1EA9003E07CF /* AppDelegate.m */; };
+		1A2B72121DAF1EA9003E07CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B72111DAF1EA9003E07CF /* ViewController.m */; };
+		1A2B72151DAF1EA9003E07CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B72131DAF1EA9003E07CF /* Main.storyboard */; };
+		1A2B72171DAF1EA9003E07CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B72161DAF1EA9003E07CF /* Assets.xcassets */; };
+		1A2B721A1DAF1EA9003E07CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A2B72181DAF1EA9003E07CF /* LaunchScreen.storyboard */; };
+		1A2B72251DAF1EA9003E07CF /* JMNetworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B72241DAF1EA9003E07CF /* JMNetworkDemoTests.m */; };
+		1A2B72301DAF1EA9003E07CF /* JMNetworkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B722F1DAF1EA9003E07CF /* JMNetworkDemoUITests.m */; };
+		DD4A3D423F5E6D40AB4AFC7F /* libPods-JMNetworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5C657D8DB183321D39F12F /* libPods-JMNetworkDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A2B72211DAF1EA9003E07CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A2B71FF1DAF1EA9003E07CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A2B72061DAF1EA9003E07CF;
+			remoteInfo = JMNetworkDemo;
+		};
+		1A2B722C1DAF1EA9003E07CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A2B71FF1DAF1EA9003E07CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A2B72061DAF1EA9003E07CF;
+			remoteInfo = JMNetworkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A2B72071DAF1EA9003E07CF /* JMNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2B720B1DAF1EA9003E07CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A2B720D1DAF1EA9003E07CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A2B720E1DAF1EA9003E07CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A2B72101DAF1EA9003E07CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A2B72111DAF1EA9003E07CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A2B72141DAF1EA9003E07CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A2B72161DAF1EA9003E07CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A2B72191DAF1EA9003E07CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A2B721B1DAF1EA9003E07CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A2B72201DAF1EA9003E07CF /* JMNetworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMNetworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2B72241DAF1EA9003E07CF /* JMNetworkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMNetworkDemoTests.m; sourceTree = "<group>"; };
+		1A2B72261DAF1EA9003E07CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A2B722B1DAF1EA9003E07CF /* JMNetworkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JMNetworkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A2B722F1DAF1EA9003E07CF /* JMNetworkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMNetworkDemoUITests.m; sourceTree = "<group>"; };
+		1A2B72311DAF1EA9003E07CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A2B72751DB0BE37003E07CF /* libAFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAFNetworking.a; path = "Pods/../build/Debug-iphoneos/AFNetworking/libAFNetworking.a"; sourceTree = "<group>"; };
+		3A95037B5F4729ABA7226AF1 /* Pods-JMNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JMNetworkDemo/Pods-JMNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9403AB7204972EB5DEBD5699 /* Pods-JMNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMNetworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JMNetworkDemo/Pods-JMNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BB5C657D8DB183321D39F12F /* libPods-JMNetworkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JMNetworkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A2B72041DAF1EA9003E07CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4A3D423F5E6D40AB4AFC7F /* libPods-JMNetworkDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2B721D1DAF1EA9003E07CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2B72281DAF1EA9003E07CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A2B71FE1DAF1EA9003E07CF = {
+			isa = PBXGroup;
+			children = (
+				1A2B72091DAF1EA9003E07CF /* JMNetworkDemo */,
+				1A2B72231DAF1EA9003E07CF /* JMNetworkDemoTests */,
+				1A2B722E1DAF1EA9003E07CF /* JMNetworkDemoUITests */,
+				1A2B72081DAF1EA9003E07CF /* Products */,
+				F916C4A4DA626EA60128F095 /* Pods */,
+				9119942C9484C54516E3AA54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A2B72081DAF1EA9003E07CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B72071DAF1EA9003E07CF /* JMNetworkDemo.app */,
+				1A2B72201DAF1EA9003E07CF /* JMNetworkDemoTests.xctest */,
+				1A2B722B1DAF1EA9003E07CF /* JMNetworkDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A2B72091DAF1EA9003E07CF /* JMNetworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B720D1DAF1EA9003E07CF /* AppDelegate.h */,
+				1A2B720E1DAF1EA9003E07CF /* AppDelegate.m */,
+				1A2B72101DAF1EA9003E07CF /* ViewController.h */,
+				1A2B72111DAF1EA9003E07CF /* ViewController.m */,
+				1A2B72131DAF1EA9003E07CF /* Main.storyboard */,
+				1A2B72161DAF1EA9003E07CF /* Assets.xcassets */,
+				1A2B72181DAF1EA9003E07CF /* LaunchScreen.storyboard */,
+				1A2B721B1DAF1EA9003E07CF /* Info.plist */,
+				1A2B720A1DAF1EA9003E07CF /* Supporting Files */,
+			);
+			path = JMNetworkDemo;
+			sourceTree = "<group>";
+		};
+		1A2B720A1DAF1EA9003E07CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B720B1DAF1EA9003E07CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A2B72231DAF1EA9003E07CF /* JMNetworkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B72241DAF1EA9003E07CF /* JMNetworkDemoTests.m */,
+				1A2B72261DAF1EA9003E07CF /* Info.plist */,
+			);
+			path = JMNetworkDemoTests;
+			sourceTree = "<group>";
+		};
+		1A2B722E1DAF1EA9003E07CF /* JMNetworkDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B722F1DAF1EA9003E07CF /* JMNetworkDemoUITests.m */,
+				1A2B72311DAF1EA9003E07CF /* Info.plist */,
+			);
+			path = JMNetworkDemoUITests;
+			sourceTree = "<group>";
+		};
+		9119942C9484C54516E3AA54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A2B72751DB0BE37003E07CF /* libAFNetworking.a */,
+				BB5C657D8DB183321D39F12F /* libPods-JMNetworkDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F916C4A4DA626EA60128F095 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9403AB7204972EB5DEBD5699 /* Pods-JMNetworkDemo.debug.xcconfig */,
+				3A95037B5F4729ABA7226AF1 /* Pods-JMNetworkDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A2B72061DAF1EA9003E07CF /* JMNetworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2B72341DAF1EA9003E07CF /* Build configuration list for PBXNativeTarget "JMNetworkDemo" */;
+			buildPhases = (
+				02A0DFF140DDBAB7BC54EF7D /* [CP] Check Pods Manifest.lock */,
+				1A2B72031DAF1EA9003E07CF /* Sources */,
+				1A2B72041DAF1EA9003E07CF /* Frameworks */,
+				1A2B72051DAF1EA9003E07CF /* Resources */,
+				26451219440D0D9116E8470B /* [CP] Embed Pods Frameworks */,
+				DBC0673797599971E92DFB7A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JMNetworkDemo;
+			productName = JMNetworkDemo;
+			productReference = 1A2B72071DAF1EA9003E07CF /* JMNetworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A2B721F1DAF1EA9003E07CF /* JMNetworkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2B72371DAF1EA9003E07CF /* Build configuration list for PBXNativeTarget "JMNetworkDemoTests" */;
+			buildPhases = (
+				1A2B721C1DAF1EA9003E07CF /* Sources */,
+				1A2B721D1DAF1EA9003E07CF /* Frameworks */,
+				1A2B721E1DAF1EA9003E07CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A2B72221DAF1EA9003E07CF /* PBXTargetDependency */,
+			);
+			name = JMNetworkDemoTests;
+			productName = JMNetworkDemoTests;
+			productReference = 1A2B72201DAF1EA9003E07CF /* JMNetworkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A2B722A1DAF1EA9003E07CF /* JMNetworkDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2B723A1DAF1EA9003E07CF /* Build configuration list for PBXNativeTarget "JMNetworkDemoUITests" */;
+			buildPhases = (
+				1A2B72271DAF1EA9003E07CF /* Sources */,
+				1A2B72281DAF1EA9003E07CF /* Frameworks */,
+				1A2B72291DAF1EA9003E07CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A2B722D1DAF1EA9003E07CF /* PBXTargetDependency */,
+			);
+			name = JMNetworkDemoUITests;
+			productName = JMNetworkDemoUITests;
+			productReference = 1A2B722B1DAF1EA9003E07CF /* JMNetworkDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A2B71FF1DAF1EA9003E07CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = James.xiao;
+				TargetAttributes = {
+					1A2B72061DAF1EA9003E07CF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 58SDKF7S9Q;
+						ProvisioningStyle = Automatic;
+					};
+					1A2B721F1DAF1EA9003E07CF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 58SDKF7S9Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A2B72061DAF1EA9003E07CF;
+					};
+					1A2B722A1DAF1EA9003E07CF = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 58SDKF7S9Q;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1A2B72061DAF1EA9003E07CF;
+					};
+				};
+			};
+			buildConfigurationList = 1A2B72021DAF1EA9003E07CF /* Build configuration list for PBXProject "JMNetworkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A2B71FE1DAF1EA9003E07CF;
+			productRefGroup = 1A2B72081DAF1EA9003E07CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A2B72061DAF1EA9003E07CF /* JMNetworkDemo */,
+				1A2B721F1DAF1EA9003E07CF /* JMNetworkDemoTests */,
+				1A2B722A1DAF1EA9003E07CF /* JMNetworkDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A2B72051DAF1EA9003E07CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2B721A1DAF1EA9003E07CF /* LaunchScreen.storyboard in Resources */,
+				1A2B72171DAF1EA9003E07CF /* Assets.xcassets in Resources */,
+				1A2B72151DAF1EA9003E07CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2B721E1DAF1EA9003E07CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2B72291DAF1EA9003E07CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02A0DFF140DDBAB7BC54EF7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		26451219440D0D9116E8470B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JMNetworkDemo/Pods-JMNetworkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC0673797599971E92DFB7A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JMNetworkDemo/Pods-JMNetworkDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A2B72031DAF1EA9003E07CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2B72121DAF1EA9003E07CF /* ViewController.m in Sources */,
+				1A2B720F1DAF1EA9003E07CF /* AppDelegate.m in Sources */,
+				1A2B720C1DAF1EA9003E07CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2B721C1DAF1EA9003E07CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2B72251DAF1EA9003E07CF /* JMNetworkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A2B72271DAF1EA9003E07CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2B72301DAF1EA9003E07CF /* JMNetworkDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A2B72221DAF1EA9003E07CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A2B72061DAF1EA9003E07CF /* JMNetworkDemo */;
+			targetProxy = 1A2B72211DAF1EA9003E07CF /* PBXContainerItemProxy */;
+		};
+		1A2B722D1DAF1EA9003E07CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A2B72061DAF1EA9003E07CF /* JMNetworkDemo */;
+			targetProxy = 1A2B722C1DAF1EA9003E07CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A2B72131DAF1EA9003E07CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A2B72141DAF1EA9003E07CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A2B72181DAF1EA9003E07CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A2B72191DAF1EA9003E07CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A2B72321DAF1EA9003E07CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A2B72331DAF1EA9003E07CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A2B72351DAF1EA9003E07CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9403AB7204972EB5DEBD5699 /* Pods-JMNetworkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods",
+				);
+				INFOPLIST_FILE = JMNetworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		1A2B72361DAF1EA9003E07CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A95037B5F4729ABA7226AF1 /* Pods-JMNetworkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods",
+				);
+				INFOPLIST_FILE = JMNetworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1A2B72381DAF1EA9003E07CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMNetworkDemo.app/JMNetworkDemo";
+			};
+			name = Debug;
+		};
+		1A2B72391DAF1EA9003E07CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JMNetworkDemo.app/JMNetworkDemo";
+			};
+			name = Release;
+		};
+		1A2B723B1DAF1EA9003E07CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMNetworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMNetworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JMNetworkDemo;
+			};
+			name = Debug;
+		};
+		1A2B723C1DAF1EA9003E07CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 58SDKF7S9Q;
+				INFOPLIST_FILE = JMNetworkDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMNetworkDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JMNetworkDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A2B72021DAF1EA9003E07CF /* Build configuration list for PBXProject "JMNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2B72321DAF1EA9003E07CF /* Debug */,
+				1A2B72331DAF1EA9003E07CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2B72341DAF1EA9003E07CF /* Build configuration list for PBXNativeTarget "JMNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2B72351DAF1EA9003E07CF /* Debug */,
+				1A2B72361DAF1EA9003E07CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2B72371DAF1EA9003E07CF /* Build configuration list for PBXNativeTarget "JMNetworkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2B72381DAF1EA9003E07CF /* Debug */,
+				1A2B72391DAF1EA9003E07CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A2B723A1DAF1EA9003E07CF /* Build configuration list for PBXNativeTarget "JMNetworkDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2B723B1DAF1EA9003E07CF /* Debug */,
+				1A2B723C1DAF1EA9003E07CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A2B71FF1DAF1EA9003E07CF /* Project object */;
+}
