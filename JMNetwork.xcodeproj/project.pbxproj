@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		1AC29FEE1DB718EB00A3DEA4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AC29FE21DB718EB00A3DEA4 /* Info.plist */; };
-		1AC29FEF1DB718EB00A3DEA4 /* JMBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FE31DB718EB00A3DEA4 /* JMBaseRequest.h */; };
+		1AC29FEF1DB718EB00A3DEA4 /* JMBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FE31DB718EB00A3DEA4 /* JMBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AC29FF01DB718EB00A3DEA4 /* JMBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC29FE41DB718EB00A3DEA4 /* JMBaseRequest.m */; };
-		1AC29FF11DB718EB00A3DEA4 /* JMNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FE51DB718EB00A3DEA4 /* JMNetwork.h */; };
-		1AC29FF21DB718EB00A3DEA4 /* JMNetworkAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FE61DB718EB00A3DEA4 /* JMNetworkAgent.h */; };
+		1AC29FF11DB718EB00A3DEA4 /* JMNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FE51DB718EB00A3DEA4 /* JMNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AC29FF21DB718EB00A3DEA4 /* JMNetworkAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FE61DB718EB00A3DEA4 /* JMNetworkAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AC29FF31DB718EB00A3DEA4 /* JMNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC29FE71DB718EB00A3DEA4 /* JMNetworkAgent.m */; };
-		1AC29FF41DB718EB00A3DEA4 /* JMNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FE81DB718EB00A3DEA4 /* JMNetworkConfig.h */; };
+		1AC29FF41DB718EB00A3DEA4 /* JMNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FE81DB718EB00A3DEA4 /* JMNetworkConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AC29FF51DB718EB00A3DEA4 /* JMNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC29FE91DB718EB00A3DEA4 /* JMNetworkConfig.m */; };
 		1AC29FF61DB718EB00A3DEA4 /* JMNetworkPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FEA1DB718EB00A3DEA4 /* JMNetworkPrivate.h */; };
 		1AC29FF71DB718EB00A3DEA4 /* JMNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC29FEB1DB718EB00A3DEA4 /* JMNetworkPrivate.m */; };
-		1AC29FF81DB718EB00A3DEA4 /* JMRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FEC1DB718EB00A3DEA4 /* JMRequest.h */; };
+		1AC29FF81DB718EB00A3DEA4 /* JMRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FEC1DB718EB00A3DEA4 /* JMRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AC29FF91DB718EB00A3DEA4 /* JMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC29FED1DB718EB00A3DEA4 /* JMRequest.m */; };
 		D584BD83CE9E9990683EF050 /* Pods_JMNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D79C888190C62D692DD9164 /* Pods_JMNetwork.framework */; };
 /* End PBXBuildFile section */
@@ -115,11 +115,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AC29FF21DB718EB00A3DEA4 /* JMNetworkAgent.h in Headers */,
-				1AC29FF61DB718EB00A3DEA4 /* JMNetworkPrivate.h in Headers */,
 				1AC29FF11DB718EB00A3DEA4 /* JMNetwork.h in Headers */,
 				1AC29FF41DB718EB00A3DEA4 /* JMNetworkConfig.h in Headers */,
-				1AC29FEF1DB718EB00A3DEA4 /* JMBaseRequest.h in Headers */,
 				1AC29FF81DB718EB00A3DEA4 /* JMRequest.h in Headers */,
+				1AC29FEF1DB718EB00A3DEA4 /* JMBaseRequest.h in Headers */,
+				1AC29FF61DB718EB00A3DEA4 /* JMNetworkPrivate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
