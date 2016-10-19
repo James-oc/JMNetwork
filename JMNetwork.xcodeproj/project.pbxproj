@@ -7,75 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A2B71F71DAF1AE4003E07CF /* JMNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B71F61DAF1AE4003E07CF /* JMNetwork.m */; };
-		1A2B71F81DAF1AE4003E07CF /* JMNetwork.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1A2B71F51DAF1AE4003E07CF /* JMNetwork.h */; };
+		1AC29FEE1DB718EB00A3DEA4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AC29FE21DB718EB00A3DEA4 /* Info.plist */; };
+		1AC29FEF1DB718EB00A3DEA4 /* JMBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FE31DB718EB00A3DEA4 /* JMBaseRequest.h */; };
+		1AC29FF01DB718EB00A3DEA4 /* JMBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC29FE41DB718EB00A3DEA4 /* JMBaseRequest.m */; };
+		1AC29FF11DB718EB00A3DEA4 /* JMNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FE51DB718EB00A3DEA4 /* JMNetwork.h */; };
+		1AC29FF21DB718EB00A3DEA4 /* JMNetworkAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FE61DB718EB00A3DEA4 /* JMNetworkAgent.h */; };
+		1AC29FF31DB718EB00A3DEA4 /* JMNetworkAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC29FE71DB718EB00A3DEA4 /* JMNetworkAgent.m */; };
+		1AC29FF41DB718EB00A3DEA4 /* JMNetworkConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FE81DB718EB00A3DEA4 /* JMNetworkConfig.h */; };
+		1AC29FF51DB718EB00A3DEA4 /* JMNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC29FE91DB718EB00A3DEA4 /* JMNetworkConfig.m */; };
+		1AC29FF61DB718EB00A3DEA4 /* JMNetworkPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FEA1DB718EB00A3DEA4 /* JMNetworkPrivate.h */; };
+		1AC29FF71DB718EB00A3DEA4 /* JMNetworkPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC29FEB1DB718EB00A3DEA4 /* JMNetworkPrivate.m */; };
+		1AC29FF81DB718EB00A3DEA4 /* JMRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FEC1DB718EB00A3DEA4 /* JMRequest.h */; };
+		1AC29FF91DB718EB00A3DEA4 /* JMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC29FED1DB718EB00A3DEA4 /* JMRequest.m */; };
+		D584BD83CE9E9990683EF050 /* Pods_JMNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D79C888190C62D692DD9164 /* Pods_JMNetwork.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		1A2B71F01DAF1AE4003E07CF /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				1A2B71F81DAF1AE4003E07CF /* JMNetwork.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		1A2B71F21DAF1AE4003E07CF /* libJMNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJMNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A2B71F51DAF1AE4003E07CF /* JMNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMNetwork.h; sourceTree = "<group>"; };
-		1A2B71F61DAF1AE4003E07CF /* JMNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMNetwork.m; sourceTree = "<group>"; };
+		1AC29FC71DB7184300A3DEA4 /* JMNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JMNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC29FE21DB718EB00A3DEA4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC29FE31DB718EB00A3DEA4 /* JMBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBaseRequest.h; sourceTree = "<group>"; };
+		1AC29FE41DB718EB00A3DEA4 /* JMBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMBaseRequest.m; sourceTree = "<group>"; };
+		1AC29FE51DB718EB00A3DEA4 /* JMNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMNetwork.h; sourceTree = "<group>"; };
+		1AC29FE61DB718EB00A3DEA4 /* JMNetworkAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMNetworkAgent.h; sourceTree = "<group>"; };
+		1AC29FE71DB718EB00A3DEA4 /* JMNetworkAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMNetworkAgent.m; sourceTree = "<group>"; };
+		1AC29FE81DB718EB00A3DEA4 /* JMNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMNetworkConfig.h; sourceTree = "<group>"; };
+		1AC29FE91DB718EB00A3DEA4 /* JMNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMNetworkConfig.m; sourceTree = "<group>"; };
+		1AC29FEA1DB718EB00A3DEA4 /* JMNetworkPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMNetworkPrivate.h; sourceTree = "<group>"; };
+		1AC29FEB1DB718EB00A3DEA4 /* JMNetworkPrivate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMNetworkPrivate.m; sourceTree = "<group>"; };
+		1AC29FEC1DB718EB00A3DEA4 /* JMRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMRequest.h; sourceTree = "<group>"; };
+		1AC29FED1DB718EB00A3DEA4 /* JMRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRequest.m; sourceTree = "<group>"; };
+		5D79C888190C62D692DD9164 /* Pods_JMNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		652A33D2E7DBAB0D2E3C9485 /* Pods-JMNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMNetwork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JMNetwork/Pods-JMNetwork.debug.xcconfig"; sourceTree = "<group>"; };
+		A9E3276837C970F11839D5DF /* Pods-JMNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMNetwork.release.xcconfig"; path = "Pods/Target Support Files/Pods-JMNetwork/Pods-JMNetwork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A2B71EF1DAF1AE4003E07CF /* Frameworks */ = {
+		1AC29FC31DB7184300A3DEA4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D584BD83CE9E9990683EF050 /* Pods_JMNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A2B71E91DAF1AE4003E07CF = {
+		1AC29FBD1DB7184300A3DEA4 = {
 			isa = PBXGroup;
 			children = (
-				1A2B71F41DAF1AE4003E07CF /* JMNetwork */,
-				1A2B71F31DAF1AE4003E07CF /* Products */,
+				1AC29FE11DB718EB00A3DEA4 /* JMNetwork */,
+				1AC29FC81DB7184300A3DEA4 /* Products */,
+				AB5661A8A094FF2DA342F9FE /* Pods */,
+				875F384C722CDE7C6854A260 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		1A2B71F31DAF1AE4003E07CF /* Products */ = {
+		1AC29FC81DB7184300A3DEA4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A2B71F21DAF1AE4003E07CF /* libJMNetwork.a */,
+				1AC29FC71DB7184300A3DEA4 /* JMNetwork.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1A2B71F41DAF1AE4003E07CF /* JMNetwork */ = {
+		1AC29FE11DB718EB00A3DEA4 /* JMNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				1A2B71F51DAF1AE4003E07CF /* JMNetwork.h */,
-				1A2B71F61DAF1AE4003E07CF /* JMNetwork.m */,
+				1AC29FE51DB718EB00A3DEA4 /* JMNetwork.h */,
+				1AC29FE31DB718EB00A3DEA4 /* JMBaseRequest.h */,
+				1AC29FE41DB718EB00A3DEA4 /* JMBaseRequest.m */,
+				1AC29FE61DB718EB00A3DEA4 /* JMNetworkAgent.h */,
+				1AC29FE71DB718EB00A3DEA4 /* JMNetworkAgent.m */,
+				1AC29FE81DB718EB00A3DEA4 /* JMNetworkConfig.h */,
+				1AC29FE91DB718EB00A3DEA4 /* JMNetworkConfig.m */,
+				1AC29FEA1DB718EB00A3DEA4 /* JMNetworkPrivate.h */,
+				1AC29FEB1DB718EB00A3DEA4 /* JMNetworkPrivate.m */,
+				1AC29FEC1DB718EB00A3DEA4 /* JMRequest.h */,
+				1AC29FED1DB718EB00A3DEA4 /* JMRequest.m */,
+				1AC29FE21DB718EB00A3DEA4 /* Info.plist */,
 			);
 			path = JMNetwork;
 			sourceTree = "<group>";
 		};
+		875F384C722CDE7C6854A260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D79C888190C62D692DD9164 /* Pods_JMNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB5661A8A094FF2DA342F9FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				652A33D2E7DBAB0D2E3C9485 /* Pods-JMNetwork.debug.xcconfig */,
+				A9E3276837C970F11839D5DF /* Pods-JMNetwork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		1AC29FC41DB7184300A3DEA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC29FF21DB718EB00A3DEA4 /* JMNetworkAgent.h in Headers */,
+				1AC29FF61DB718EB00A3DEA4 /* JMNetworkPrivate.h in Headers */,
+				1AC29FF11DB718EB00A3DEA4 /* JMNetwork.h in Headers */,
+				1AC29FF41DB718EB00A3DEA4 /* JMNetworkConfig.h in Headers */,
+				1AC29FEF1DB718EB00A3DEA4 /* JMBaseRequest.h in Headers */,
+				1AC29FF81DB718EB00A3DEA4 /* JMRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		1A2B71F11DAF1AE4003E07CF /* JMNetwork */ = {
+		1AC29FC61DB7184300A3DEA4 /* JMNetwork */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A2B71FB1DAF1AE4003E07CF /* Build configuration list for PBXNativeTarget "JMNetwork" */;
+			buildConfigurationList = 1AC29FDB1DB7184300A3DEA4 /* Build configuration list for PBXNativeTarget "JMNetwork" */;
 			buildPhases = (
-				1A2B71EE1DAF1AE4003E07CF /* Sources */,
-				1A2B71EF1DAF1AE4003E07CF /* Frameworks */,
-				1A2B71F01DAF1AE4003E07CF /* CopyFiles */,
+				DC7824BF497840DC02AB5955 /* [CP] Check Pods Manifest.lock */,
+				1AC29FC21DB7184300A3DEA4 /* Sources */,
+				1AC29FC31DB7184300A3DEA4 /* Frameworks */,
+				1AC29FC41DB7184300A3DEA4 /* Headers */,
+				1AC29FC51DB7184300A3DEA4 /* Resources */,
+				DB0BBF7A028A37CE825E7D81 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -83,55 +143,103 @@
 			);
 			name = JMNetwork;
 			productName = JMNetwork;
-			productReference = 1A2B71F21DAF1AE4003E07CF /* libJMNetwork.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 1AC29FC71DB7184300A3DEA4 /* JMNetwork.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1A2B71EA1DAF1AE4003E07CF /* Project object */ = {
+		1AC29FBE1DB7184300A3DEA4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = James.xiao;
 				TargetAttributes = {
-					1A2B71F11DAF1AE4003E07CF = {
+					1AC29FC61DB7184300A3DEA4 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 58SDKF7S9Q;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 1A2B71ED1DAF1AE4003E07CF /* Build configuration list for PBXProject "JMNetwork" */;
+			buildConfigurationList = 1AC29FC11DB7184300A3DEA4 /* Build configuration list for PBXProject "JMNetwork" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 1A2B71E91DAF1AE4003E07CF;
-			productRefGroup = 1A2B71F31DAF1AE4003E07CF /* Products */;
+			mainGroup = 1AC29FBD1DB7184300A3DEA4;
+			productRefGroup = 1AC29FC81DB7184300A3DEA4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A2B71F11DAF1AE4003E07CF /* JMNetwork */,
+				1AC29FC61DB7184300A3DEA4 /* JMNetwork */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		1AC29FC51DB7184300A3DEA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC29FEE1DB718EB00A3DEA4 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB0BBF7A028A37CE825E7D81 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JMNetwork/Pods-JMNetwork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC7824BF497840DC02AB5955 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		1A2B71EE1DAF1AE4003E07CF /* Sources */ = {
+		1AC29FC21DB7184300A3DEA4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A2B71F71DAF1AE4003E07CF /* JMNetwork.m in Sources */,
+				1AC29FF01DB718EB00A3DEA4 /* JMBaseRequest.m in Sources */,
+				1AC29FF71DB718EB00A3DEA4 /* JMNetworkPrivate.m in Sources */,
+				1AC29FF31DB718EB00A3DEA4 /* JMNetworkAgent.m in Sources */,
+				1AC29FF51DB718EB00A3DEA4 /* JMNetworkConfig.m in Sources */,
+				1AC29FF91DB718EB00A3DEA4 /* JMRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		1A2B71F91DAF1AE4003E07CF /* Debug */ = {
+		1AC29FD91DB7184300A3DEA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -154,6 +262,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -171,14 +280,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		1A2B71FA1DAF1AE4003E07CF /* Release */ = {
+		1AC29FDA1DB7184300A3DEA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -201,6 +313,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -212,28 +325,51 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		1A2B71FC1DAF1AE4003E07CF /* Debug */ = {
+		1AC29FDC1DB7184300A3DEA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 652A33D2E7DBAB0D2E3C9485 /* Pods-JMNetwork.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 58SDKF7S9Q;
-				OTHER_LDFLAGS = "-ObjC";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JMNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		1A2B71FD1DAF1AE4003E07CF /* Release */ = {
+		1AC29FDD1DB7184300A3DEA4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9E3276837C970F11839D5DF /* Pods-JMNetwork.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 58SDKF7S9Q;
-				OTHER_LDFLAGS = "-ObjC";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JMNetwork/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hgy.test.JMNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -242,24 +378,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A2B71ED1DAF1AE4003E07CF /* Build configuration list for PBXProject "JMNetwork" */ = {
+		1AC29FC11DB7184300A3DEA4 /* Build configuration list for PBXProject "JMNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A2B71F91DAF1AE4003E07CF /* Debug */,
-				1A2B71FA1DAF1AE4003E07CF /* Release */,
+				1AC29FD91DB7184300A3DEA4 /* Debug */,
+				1AC29FDA1DB7184300A3DEA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A2B71FB1DAF1AE4003E07CF /* Build configuration list for PBXNativeTarget "JMNetwork" */ = {
+		1AC29FDB1DB7184300A3DEA4 /* Build configuration list for PBXNativeTarget "JMNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A2B71FC1DAF1AE4003E07CF /* Debug */,
-				1A2B71FD1DAF1AE4003E07CF /* Release */,
+				1AC29FDC1DB7184300A3DEA4 /* Debug */,
+				1AC29FDD1DB7184300A3DEA4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1A2B71EA1DAF1AE4003E07CF /* Project object */;
+	rootObject = 1AC29FBE1DB7184300A3DEA4 /* Project object */;
 }
