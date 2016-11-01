@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>JMNetwork.xcscheme</key>
+		<key>JMNetwork.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1A2B71F11DAF1AE4003E07CF</key>
+		<key>1AC29FC61DB7184300A3DEA4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1AC29FCF1DB7184300A3DEA4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

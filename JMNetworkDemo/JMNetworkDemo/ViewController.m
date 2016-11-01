@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <JMNetwork.h>
 
 @interface ViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    JMRequest *request = [[JMRequest alloc] init];
+    request.requestUrl = @"https://www.baidu.com/";
+    [request startWithCompletionBlockWithSuccess:^(__kindof JMBaseRequest * _Nonnull request) {
+        
+    } failure:^(__kindof JMBaseRequest * _Nonnull request) {
+        
+    }];
 }
 
 

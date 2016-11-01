@@ -20,6 +20,7 @@ FOUNDATION_EXPORT const unsigned char YTKNetworkVersionString[];
 #import <JMNetwork/JMRequest.h>
 #import <JMNetwork/JMNetworkAgent.h>
 #import <JMNetwork/JMNetworkConfig.h>
+#import <JMNetwork/JMNetworkReachabilityManager.h>
 
 #else
 
@@ -27,6 +28,7 @@ FOUNDATION_EXPORT const unsigned char YTKNetworkVersionString[];
 #import "JMRequest.h"
 #import "JMNetworkAgent.h"
 #import "JMNetworkConfig.h"
+#import "JMNetworkReachabilityManager.h"
 
 #endif
 
