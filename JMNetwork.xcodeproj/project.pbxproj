@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1AAFA31E1DC8B96B002E6DE8 /* JMNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAFA31C1DC8B96B002E6DE8 /* JMNetworkReachabilityManager.h */; };
+		1AAFA31E1DC8B96B002E6DE8 /* JMNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AAFA31C1DC8B96B002E6DE8 /* JMNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AAFA31F1DC8B96B002E6DE8 /* JMNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAFA31D1DC8B96B002E6DE8 /* JMNetworkReachabilityManager.m */; };
 		1AC29FEF1DB718EB00A3DEA4 /* JMBaseRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AC29FE31DB718EB00A3DEA4 /* JMBaseRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AC29FF01DB718EB00A3DEA4 /* JMBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC29FE41DB718EB00A3DEA4 /* JMBaseRequest.m */; };
@@ -126,8 +126,8 @@
 				1AC29FF21DB718EB00A3DEA4 /* JMNetworkAgent.h in Headers */,
 				1AC29FF11DB718EB00A3DEA4 /* JMNetwork.h in Headers */,
 				1AC29FF41DB718EB00A3DEA4 /* JMNetworkConfig.h in Headers */,
-				1AAFA31E1DC8B96B002E6DE8 /* JMNetworkReachabilityManager.h in Headers */,
 				1AC29FF81DB718EB00A3DEA4 /* JMRequest.h in Headers */,
+				1AAFA31E1DC8B96B002E6DE8 /* JMNetworkReachabilityManager.h in Headers */,
 				1AC29FEF1DB718EB00A3DEA4 /* JMBaseRequest.h in Headers */,
 				1AC29FF61DB718EB00A3DEA4 /* JMNetworkPrivate.h in Headers */,
 			);
