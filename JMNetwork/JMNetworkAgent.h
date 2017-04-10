@@ -23,8 +23,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// 发送请求
 - (void)addRequest:(JMBaseRequest *)request;
 
-/// 取消请求
+/// 取消某个请求
 - (void)cancelRequest:(JMBaseRequest *)request;
+
+/// 取消所有请求
+- (void)cancelAllRequest;
 
 @end
 

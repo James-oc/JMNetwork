@@ -143,6 +143,10 @@
     [request clearCompletionBlock];
 }
 
+- (void)cancelAllRequest {
+    [_manager.operationQueue cancelAllOperations];
+}
+
 - (NSURLSessionTask *)sessionTaskForRequest:(JMBaseRequest *)request error:(NSError * _Nullable __autoreleasing *)error {
     JMRequestMethod method                      = request.requestMethod;
     NSString *url                               = [self buildRequestUrl:request];
